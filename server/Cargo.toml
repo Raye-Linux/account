@@ -1,0 +1,38 @@
+[package]
+name = "raye-account-server"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Raye account server: sign-in, devices, profile, settings sync, Store library"
+
+[dependencies]
+raye-account-common = { path = "../common" }
+axum = { version = "0.8", default-features = false, features = ["http1", "json", "form", "query", "tokio", "macros", "multipart"] }
+tokio = { workspace = true, features = ["rt-multi-thread"] }
+tower-http = { version = "0.6", features = ["limit", "set-header", "timeout"] }
+sqlx = { version = "0.8", default-features = false, features = ["runtime-tokio", "postgres", "uuid", "time", "json", "macros", "migrate"] }
+argon2 = { version = "0.5", features = ["std"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg", "webp"] }
+ed25519-dalek.workspace = true
+hmac = "0.12"
+# RFC 6238 is defined on SHA-1 and that is what authenticator apps compute.
+sha1 = "0.10"
+# Seals the TOTP secret at rest. A real AEAD rather than an HMAC keystream
+# written here: hand-rolled authenticated encryption is how this goes wrong.
+chacha20poly1305 = "0.10"
+sha2.workspace = true
+base64.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+rand.workspace = true
+time = { version = "0.3", features = ["formatting", "parsing", "macros"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", default-features = false, features = ["fmt", "env-filter", "ansi"] }
+webauthn-rs = { version = "0.5", features = ["danger-allow-state-serialisation", "conditional-ui"] }
+qrcode = { version = "0.14", default-features = false, features = ["svg"] }
+webauthn-rs-proto = "0.5"
+
+[dev-dependencies]
+tower = { version = "0.5", features = ["util"] }
+http-body-util = "0.1"

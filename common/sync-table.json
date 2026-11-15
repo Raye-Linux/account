@@ -1,0 +1,1947 @@
+{
+ "synced": [
+  {
+   "file": "kaccessrc",
+   "group": "Bell",
+   "key": "VisibleBell",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Audio"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "BounceKeys",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "Gestures",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "SlowKeys",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "StickyKeysAutoOff",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "StickyKeysBeep",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "StickyKeysLatch",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "ToggleKeysBeep",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Keyboard"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Mouse",
+   "key": "MKMaxSpeed",
+   "category": "accessibility",
+   "type": "int",
+   "page": "Accessibility > Mouse keys",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Mouse",
+   "key": "MKTimeToMax",
+   "category": "accessibility",
+   "type": "int",
+   "page": "Accessibility > Mouse keys",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Mouse",
+   "key": "MouseKeys",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Mouse keys"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "ScreenReader",
+   "key": "Enabled",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Screen reader"
+  },
+  {
+   "file": "kcminputrc",
+   "group": "Mouse",
+   "key": "cursorTheme",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Mouse pointer and touch"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "fixed",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Text size"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "font",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Text size"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "menuFont",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Text size"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "smallestReadableFont",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Text size"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "toolBarFont",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Text size"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "Raye",
+   "key": "TextSize",
+   "category": "accessibility",
+   "type": "int",
+   "page": "Accessibility > Text size",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kdeglobals",
+   "group": "WM",
+   "key": "activeFont",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Text size"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Effect-colorblindnesscorrection",
+   "key": "Intensity",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Color filters"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Effect-colorblindnesscorrection",
+   "key": "Mode",
+   "category": "accessibility",
+   "type": "int",
+   "page": "Accessibility > Color filters",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kwinrc",
+   "group": "Effect-zoom",
+   "key": "EnableFocusTracking",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Magnifier"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Effect-zoom",
+   "key": "EnableTextCaretTracking",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Magnifier"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Effect-zoom",
+   "key": "MouseTracking",
+   "category": "accessibility",
+   "type": "int",
+   "page": "Accessibility > Magnifier",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kwinrc",
+   "group": "Effect-zoom",
+   "key": "ZoomFactor",
+   "category": "accessibility",
+   "type": "text",
+   "page": "Accessibility > Magnifier"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Plugins",
+   "key": "colorblindnesscorrectionEnabled",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Color filters"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Plugins",
+   "key": "magnifierEnabled",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Magnifier"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Plugins",
+   "key": "shakecursorEnabled",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Mouse pointer and touch"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Plugins",
+   "key": "zoomEnabled",
+   "category": "accessibility",
+   "type": "bool",
+   "page": "Accessibility > Magnifier"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Notifications",
+   "key": "ToastSeconds",
+   "category": "accessibility",
+   "type": "int",
+   "page": "Accessibility > Visual effects",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kcminputrc",
+   "group": "Keyboard",
+   "key": "RepeatDelay",
+   "category": "language",
+   "type": "int",
+   "page": "Time & language > Typing",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kcminputrc",
+   "group": "Keyboard",
+   "key": "RepeatRate",
+   "category": "language",
+   "type": "int",
+   "page": "Time & language > Typing",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_ADDRESS",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_MEASUREMENT",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_MONETARY",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_NAME",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_NUMERIC",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_PAPER",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_TELEPHONE",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LC_TIME",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Language & region"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Clock",
+   "key": "ShowDate",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Date & time"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Clock",
+   "key": "ShowSeconds",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Date & time"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Clock",
+   "key": "Use24h",
+   "category": "language",
+   "type": "text",
+   "page": "Time & language > Date & time"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "Raye",
+   "key": "TransparencyEffects",
+   "category": "personalization",
+   "type": "bool",
+   "page": "Personalization > Colors"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "Sounds",
+   "key": "Enable",
+   "category": "personalization",
+   "type": "bool",
+   "page": "Personalization > Sounds"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "Sounds",
+   "key": "Theme",
+   "category": "personalization",
+   "type": "text",
+   "page": "Personalization > Sounds"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Plugins",
+   "key": "blurEnabled",
+   "category": "personalization",
+   "type": "bool",
+   "page": "Personalization > Colors"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Plugins",
+   "key": "contrastEnabled",
+   "category": "personalization",
+   "type": "bool",
+   "page": "Personalization > Colors"
+  },
+  {
+   "file": "rayerc",
+   "group": "Windeco",
+   "key": "AccentBorder",
+   "category": "personalization",
+   "type": "bool",
+   "page": "Personalization > Colors"
+  },
+  {
+   "file": "baloofilerc",
+   "group": "Basic Settings",
+   "key": "Indexing-Enabled",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > Searching (FileSearchPage)"
+  },
+  {
+   "file": "dolphinrc",
+   "group": "Raye",
+   "key": "PreviewPane",
+   "category": "system",
+   "type": "text",
+   "page": "File Explorer > View"
+  },
+  {
+   "file": "dolphinrc",
+   "group": "Raye",
+   "key": "ShowExtensions",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Advanced"
+  },
+  {
+   "file": "dolphinrc",
+   "group": "Raye",
+   "key": "ShowHidden",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Advanced"
+  },
+  {
+   "file": "dolphinrc",
+   "group": "Raye",
+   "key": "ShowNavigationPane",
+   "category": "system",
+   "type": "bool",
+   "page": "File Explorer > View"
+  },
+  {
+   "file": "kactivitymanagerd-pluginsrc",
+   "group": "Plugin-org.kde.ActivityManager.Resources.Scoring",
+   "key": "what-to-remember",
+   "category": "system",
+   "type": "int",
+   "page": "Privacy & security > Activity history",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kdeglobals",
+   "group": "RecentDocuments",
+   "key": "UseRecent",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > Activity history"
+  },
+  {
+   "file": "klipperrc",
+   "group": "General",
+   "key": "KeepClipboardContents",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Clipboard"
+  },
+  {
+   "file": "klipperrc",
+   "group": "General",
+   "key": "MaxClipItems",
+   "category": "system",
+   "type": "int",
+   "page": "System > Clipboard",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "knighttimerc",
+   "group": "General",
+   "key": "Source",
+   "category": "system",
+   "type": "text",
+   "page": "System > Display > Night light"
+  },
+  {
+   "file": "kwinrc",
+   "group": "NightColor",
+   "key": "Active",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Display > Night light"
+  },
+  {
+   "file": "kwinrc",
+   "group": "NightColor",
+   "key": "Mode",
+   "category": "system",
+   "type": "text",
+   "page": "System > Display > Night light"
+  },
+  {
+   "file": "kwinrc",
+   "group": "NightColor",
+   "key": "NightTemperature",
+   "category": "system",
+   "type": "int",
+   "page": "System > Display > Night light",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kwinrc",
+   "group": "Script-org.raye.snap",
+   "key": "SnapAssist",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Multitasking"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Script-org.raye.snap",
+   "key": "SnapBar",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Multitasking"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Script-org.raye.snap",
+   "key": "SnapLayoutsOnHover",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Multitasking"
+  },
+  {
+   "file": "kwinrc",
+   "group": "TabBox",
+   "key": "DesktopMode",
+   "category": "system",
+   "type": "int",
+   "page": "System > Multitasking",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kwinrc",
+   "group": "TabBox",
+   "key": "ShowDesktopMode",
+   "category": "system",
+   "type": "int",
+   "page": "System > Multitasking",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "kwinrc",
+   "group": "Windows",
+   "key": "ElectricBorderMaximize",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Multitasking"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Windows",
+   "key": "ElectricBorderTiling",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Multitasking"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "DoNotDisturb",
+   "key": "NotificationSoundsMuted",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Notifications"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "DoNotDisturb",
+   "key": "WhenFullscreen",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Notifications"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "DoNotDisturb",
+   "key": "WhenScreenSharing",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Notifications"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "DoNotDisturb",
+   "key": "WhenScreensMirrored",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Notifications"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/Display",
+   "key": "DimDisplayIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/Display",
+   "key": "LockBeforeTurnOffDisplay",
+   "category": "system",
+   "type": "bool",
+   "page": "Accounts > Sign-in options"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/Display",
+   "key": "TurnOffDisplayIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/Display",
+   "key": "TurnOffDisplayWhenIdle",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Power & battery"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/SuspendAndShutdown",
+   "key": "AutoSuspendAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/SuspendAndShutdown",
+   "key": "AutoSuspendIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/SuspendAndShutdown",
+   "key": "LidAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "AC/SuspendAndShutdown",
+   "key": "PowerButtonAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/Display",
+   "key": "DimDisplayIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/Display",
+   "key": "LockBeforeTurnOffDisplay",
+   "category": "system",
+   "type": "bool",
+   "page": "Accounts > Sign-in options"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/Display",
+   "key": "TurnOffDisplayIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/Display",
+   "key": "TurnOffDisplayWhenIdle",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Power & battery"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/SuspendAndShutdown",
+   "key": "AutoSuspendAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/SuspendAndShutdown",
+   "key": "AutoSuspendIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/SuspendAndShutdown",
+   "key": "LidAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "Battery/SuspendAndShutdown",
+   "key": "PowerButtonAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "LowBattery/Display",
+   "key": "DimDisplayIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "LowBattery/Display",
+   "key": "LockBeforeTurnOffDisplay",
+   "category": "system",
+   "type": "bool",
+   "page": "Accounts > Sign-in options"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "LowBattery/Display",
+   "key": "TurnOffDisplayIdleTimeoutSec",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "LowBattery/Display",
+   "key": "TurnOffDisplayWhenIdle",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Power & battery"
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "LowBattery/SuspendAndShutdown",
+   "key": "LidAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "powerdevilrc",
+   "group": "LowBattery/SuspendAndShutdown",
+   "key": "PowerButtonAction",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "EnergySaver",
+   "key": "LowerBrightness",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Power & battery"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "EnergySaver",
+   "key": "TurnOnAt",
+   "category": "system",
+   "type": "int",
+   "page": "System > Power & battery",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Focus",
+   "key": "DoNotDisturb",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Focus"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Focus",
+   "key": "Minutes",
+   "category": "system",
+   "type": "int",
+   "page": "System > Focus",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Home",
+   "key": "Hidden",
+   "category": "system",
+   "type": "text",
+   "page": "Home (For you cards)"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Network",
+   "key": "RandomAddresses",
+   "category": "system",
+   "type": "bool",
+   "page": "Network & internet > Wi-Fi"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Network",
+   "key": "VpnOverMetered",
+   "category": "system",
+   "type": "bool",
+   "page": "Network & internet > VPN"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "BackgroundAccess",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > App permissions > background"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "BackgroundRestore",
+   "category": "system",
+   "type": "text",
+   "page": "Privacy & security > App permissions > background"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "CameraAccess",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > App permissions > camera"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "CameraRestore",
+   "category": "system",
+   "type": "text",
+   "page": "Privacy & security > App permissions > camera"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "FilesAccess",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > App permissions > files"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "FilesRestore",
+   "category": "system",
+   "type": "text",
+   "page": "Privacy & security > App permissions > files"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "LocationAccess",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > App permissions > location"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "LocationRestore",
+   "category": "system",
+   "type": "text",
+   "page": "Privacy & security > App permissions > location"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "MicrophoneAccess",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > App permissions > microphone"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "MicrophoneRestore",
+   "category": "system",
+   "type": "text",
+   "page": "Privacy & security > App permissions > microphone"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "ScreenshotAccess",
+   "category": "system",
+   "type": "bool",
+   "page": "Privacy & security > App permissions > screenshot"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Privacy",
+   "key": "ScreenshotRestore",
+   "category": "system",
+   "type": "text",
+   "page": "Privacy & security > App permissions > screenshot"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "StorageSense",
+   "key": "Thumbnails",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Storage (Storage Sense)"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "StorageSense",
+   "key": "TrashDays",
+   "category": "system",
+   "type": "int",
+   "page": "System > Storage (Storage Sense)",
+   "min": -1,
+   "max": 10000000
+  },
+  {
+   "file": "raye-storerc",
+   "group": "Search",
+   "key": "ShowSystemPackages",
+   "category": "system",
+   "type": "bool",
+   "page": "Store > Settings"
+  },
+  {
+   "file": "raye-storerc",
+   "group": "Updates",
+   "key": "Automatic",
+   "category": "system",
+   "type": "bool",
+   "page": "Store > Settings"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "AutoPlay",
+   "key": "Enabled",
+   "category": "system",
+   "type": "bool",
+   "page": "Bluetooth & devices > AutoPlay"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "AutoPlay",
+   "key": "MemoryCard",
+   "category": "system",
+   "type": "text",
+   "page": "Bluetooth & devices > AutoPlay"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "AutoPlay",
+   "key": "RemovableDrive",
+   "category": "system",
+   "type": "text",
+   "page": "Bluetooth & devices > AutoPlay"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Notifications",
+   "key": "LockBadges",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Notifications"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Sound",
+   "key": "VolumeChime",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Sound"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "AllDesktops",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Multitasking"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "EndTask",
+   "category": "system",
+   "type": "bool",
+   "page": "System > Advanced"
+  },
+  {
+   "file": "raye-taskbarrc",
+   "group": "Taskbar",
+   "key": "AllDisplays",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "raye-taskbarrc",
+   "group": "Taskbar",
+   "key": "MultiDisplayButtons",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Start",
+   "key": "Folders",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Start > Folders"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Start",
+   "key": "Layout",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Start"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Start",
+   "key": "MostUsed",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Start"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Start",
+   "key": "RecentApps",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Start"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Start",
+   "key": "Recommended",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Start"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "Alignment",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "Badges",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "Combine",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "Flashing",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "MultiDisplayApps",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "Search",
+   "category": "taskbar",
+   "type": "text",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "ShowDesktopCorner",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Taskbar"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Taskbar",
+   "key": "TaskView",
+   "category": "taskbar",
+   "type": "bool",
+   "page": "Personalization > Taskbar"
+  }
+ ],
+ "excluded": [
+  {
+   "file": "PlasmaUserFeedback",
+   "group": "Global",
+   "key": "FeedbackLevel",
+   "why": "how much this PC reports back is chosen on each PC, never raised from another one"
+  },
+  {
+   "file": "baloofilerc",
+   "group": "General",
+   "key": "exclude folders",
+   "why": "folders by path, many of them only exist on this PC"
+  },
+  {
+   "file": "kaccessrc",
+   "group": "Keyboard",
+   "key": "StickyKeys",
+   "why": "synced by its own adapter, as accessibility.stickyKeys"
+  },
+  {
+   "file": "kcminputrc",
+   "group": "Mouse",
+   "key": "cursorSize",
+   "why": "synced by its own adapter, as accessibility.cursorSize"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "disableEventsOnExternalMouse",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "disableWhileTyping",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "enabled",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "leftHanded",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "lmrTapButtonMap",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "naturalScroll",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "pointerAcceleration",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "pointerAccelerationProfileAdaptive",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "pointerAccelerationProfileFlat",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "scrollEdge",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "scrollFactor",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "scrollTwoFinger",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "tapAndDrag",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kcminputrc (written by KWin)",
+   "group": "Libinput/<vendorId>/<productId>/<deviceName>",
+   "key": "tapToClick",
+   "why": "set per mouse or touchpad: KWin keeps it under the hardware id of that device"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "AccentColor",
+   "why": "synced by its own adapter, as appearance.accentColor"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "BrowserApplication",
+   "why": "run as a command line by KDE (a value starting with ! is a shell command); never taken from the account"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "TerminalApplication",
+   "why": "run as a command line; never taken from the account"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "TerminalService",
+   "why": "names the terminal that is started; kept with TerminalApplication on this PC"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "General",
+   "key": "accentColorFromWallpaper",
+   "why": "synced by its own adapter, as appearance.accentColor"
+  },
+  {
+   "file": "kdeglobals",
+   "group": "KDE",
+   "key": "AnimationDurationFactor",
+   "why": "synced by its own adapter, as accessibility.animationSpeed"
+  },
+  {
+   "file": "knighttimerc",
+   "group": "General",
+   "key": "SunriseStart",
+   "why": "sunrise and sunset worked out on this PC for where it is"
+  },
+  {
+   "file": "knighttimerc",
+   "group": "General",
+   "key": "SunsetStart",
+   "why": "sunrise and sunset worked out on this PC for where it is"
+  },
+  {
+   "file": "krdpserverrc",
+   "group": "General",
+   "key": "Autostart",
+   "why": "remote desktop on or off is a decision for each PC, not for an account"
+  },
+  {
+   "file": "kscreenlockerrc",
+   "group": "Greeter/Wallpaper/org.kde.image/General",
+   "key": "Image",
+   "why": "the lock screen picture is a file on this PC"
+  },
+  {
+   "file": "kwinrc",
+   "group": "Wayland",
+   "key": "InputMethod",
+   "why": "the on-screen keyboard is a program installed on this PC"
+  },
+  {
+   "file": "mimeapps.list",
+   "group": "Added Associations",
+   "key": "<mime type>",
+   "why": "one key per file type, and the apps it names must be installed on the other PC; not synced yet"
+  },
+  {
+   "file": "mimeapps.list",
+   "group": "Default Applications",
+   "key": "<mime type>",
+   "why": "one key per file type, and the apps it names must be installed on the other PC; not synced yet"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Formats",
+   "key": "LANG",
+   "why": "synced by its own adapter, as region.formats"
+  },
+  {
+   "file": "plasma-localerc",
+   "group": "Translations",
+   "key": "LANGUAGE",
+   "why": "synced by its own adapter, as region.language"
+  },
+  {
+   "file": "plasma-nm",
+   "group": "General",
+   "key": "AirplaneModeEnabled",
+   "why": "airplane mode is the radio state of this PC right now"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "Applications/<appId>",
+   "key": "ShowBadges",
+   "why": "kept per app, one group for each app id, so it cannot be in the fixed list the server checks"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "Applications/<appId>",
+   "key": "ShowInHistory",
+   "why": "kept per app, one group for each app id, so it cannot be in the fixed list the server checks"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "Applications/<appId>",
+   "key": "ShowPopups",
+   "why": "kept per app, one group for each app id, so it cannot be in the fixed list the server checks"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "Applications/<appId>",
+   "key": "ShowPopupsInDndMode",
+   "why": "kept per app, one group for each app id, so it cannot be in the fixed list the server checks"
+  },
+  {
+   "file": "plasmanotifyrc",
+   "group": "DoNotDisturb",
+   "key": "Until",
+   "why": "the end of a pause (Focus, do not disturb) is a moment, not a preference"
+  },
+  {
+   "file": "raye-developerrc",
+   "group": "General",
+   "key": "DeveloperMode",
+   "why": "Developer Mode opens this PC to the network; it is never switched on from another PC"
+  },
+  {
+   "file": "raye-developerrc",
+   "group": "General",
+   "key": "SshPasswords",
+   "why": "SSH settings open this PC to the network; never set from another PC"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Background",
+   "key": "Recent",
+   "why": "pictures recently picked on this PC, by file path"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "EnergySaver",
+   "key": "PreviousProfile",
+   "why": "what Energy saver goes back to, kept by this PC while it is on"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "LockScreen",
+   "key": "Recent",
+   "why": "pictures recently picked on this PC, by file path"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Network",
+   "key": "BluetoothBeforeAirplane",
+   "why": "radio state this PC saves while airplane mode is on"
+  },
+  {
+   "file": "raye-settingsrc",
+   "group": "Network",
+   "key": "WifiBeforeAirplane",
+   "why": "radio state this PC saves while airplane mode is on"
+  },
+  {
+   "file": "rayeshellrc",
+   "group": "Focus",
+   "key": "Until",
+   "why": "the end of a pause (Focus, do not disturb) is a moment, not a preference"
+  },
+  {
+   "file": "spectaclerc",
+   "group": "ImageSave",
+   "key": "imageSaveLocation",
+   "why": "a folder path that may not exist on another PC"
+  },
+  {
+   "file": "spectaclerc",
+   "group": "VideoSave",
+   "key": "videoSaveLocation",
+   "why": "a folder path that may not exist on another PC"
+  },
+  {
+   "file": "~/.config/autostart/<name>.desktop",
+   "group": "Desktop Entry",
+   "key": "Hidden",
+   "why": "which apps start at sign-in follows the apps installed on this PC"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "NoProxyFor",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "Proxy Config Script",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "ProxyType",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "ReversedException",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "ftpProxy",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "httpProxy",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.config/kioslaverc",
+   "group": "Proxy Settings",
+   "key": "httpsProxy",
+   "why": "proxy settings belong to the network this PC sits on"
+  },
+  {
+   "file": "~/.local/share/applications/<appId>.desktop",
+   "group": "Desktop Entry",
+   "key": "PrefersNonDefaultGPU",
+   "why": "which graphics chip an app uses depends on the graphics hardware of this PC"
+  },
+  {
+   "file": "~/.local/share/applications/<appId>.desktop",
+   "group": "Desktop Entry",
+   "key": "X-Raye-GpuChoice",
+   "why": "which graphics chip an app uses depends on the graphics hardware of this PC"
+  }
+ ],
+ "sites": {
+  "backends/accessibility.cpp:\"SlowKeys\"": [
+   "kaccessrc|Keyboard|SlowKeys"
+  ],
+  "backends/accessibility.cpp:\"TextSize\"": [
+   "kdeglobals|Raye|TextSize"
+  ],
+  "backends/accessibility.cpp:\"cursorSize\"": [
+   "kcminputrc|Mouse|cursorSize"
+  ],
+  "backends/accessibility.cpp:\"cursorTheme\"": [
+   "kcminputrc|Mouse|cursorTheme"
+  ],
+  "backends/accessibility.cpp:key": [
+   "kdeglobals|Raye|TransparencyEffects",
+   "kwinrc|Plugins|blurEnabled",
+   "kwinrc|Plugins|contrastEnabled",
+   "kdeglobals|KDE|AnimationDurationFactor",
+   "rayeshellrc|Notifications|ToastSeconds",
+   "kwinrc|Plugins|shakecursorEnabled",
+   "kwinrc|Plugins|zoomEnabled",
+   "kwinrc|Plugins|magnifierEnabled",
+   "kwinrc|Effect-zoom|ZoomFactor",
+   "kwinrc|Effect-zoom|MouseTracking",
+   "kwinrc|Effect-zoom|EnableFocusTracking",
+   "kwinrc|Effect-zoom|EnableTextCaretTracking",
+   "kwinrc|Plugins|colorblindnesscorrectionEnabled",
+   "kwinrc|Effect-colorblindnesscorrection|Mode",
+   "kwinrc|Effect-colorblindnesscorrection|Intensity",
+   "kaccessrc|ScreenReader|Enabled",
+   "kaccessrc|Bell|VisibleBell",
+   "kaccessrc|Keyboard|StickyKeys",
+   "kaccessrc|Keyboard|StickyKeysLatch",
+   "kaccessrc|Keyboard|StickyKeysAutoOff",
+   "kaccessrc|Keyboard|StickyKeysBeep",
+   "kaccessrc|Keyboard|Gestures",
+   "kaccessrc|Keyboard|SlowKeys",
+   "kaccessrc|Keyboard|BounceKeys",
+   "kaccessrc|Keyboard|ToggleKeysBeep",
+   "kaccessrc|Mouse|MouseKeys",
+   "kaccessrc|Mouse|MKMaxSpeed",
+   "kaccessrc|Mouse|MKTimeToMax",
+   "kdeglobals|General|font",
+   "kdeglobals|General|menuFont",
+   "kdeglobals|General|toolBarFont",
+   "kdeglobals|General|smallestReadableFont",
+   "kdeglobals|General|fixed",
+   "kdeglobals|WM|activeFont"
+  ],
+  "backends/appearance.cpp:\"AccentBorder\"": [
+   "rayerc|Windeco|AccentBorder"
+  ],
+  "backends/appearance.cpp:\"AccentColor\"": [
+   "kdeglobals|General|AccentColor"
+  ],
+  "backends/appearance.cpp:\"TransparencyEffects\"": [
+   "kdeglobals|Raye|TransparencyEffects"
+  ],
+  "backends/appearance.cpp:\"accentColorFromWallpaper\"": [
+   "kdeglobals|General|accentColorFromWallpaper"
+  ],
+  "backends/appearance.cpp:key": [
+   "kwinrc|Plugins|blurEnabled",
+   "kwinrc|Plugins|contrastEnabled"
+  ],
+  "backends/autoplay.cpp:\"Enabled\"": [
+   "rayeshellrc|AutoPlay|Enabled"
+  ],
+  "backends/autoplay.cpp:key": [
+   "rayeshellrc|AutoPlay|RemovableDrive",
+   "rayeshellrc|AutoPlay|MemoryCard"
+  ],
+  "backends/captures.cpp:key": [
+   "spectaclerc|ImageSave|imageSaveLocation",
+   "spectaclerc|VideoSave|videoSaveLocation"
+  ],
+  "backends/clipboard.cpp:\"KeepClipboardContents\"": [
+   "klipperrc|General|KeepClipboardContents"
+  ],
+  "backends/clipboard.cpp:\"MaxClipItems\"": [
+   "klipperrc|General|MaxClipItems"
+  ],
+  "backends/datetime.cpp:key": [
+   "rayeshellrc|Clock|ShowSeconds",
+   "rayeshellrc|Clock|ShowDate",
+   "rayeshellrc|Clock|Use24h"
+  ],
+  "backends/defaultapps.cpp:\"BrowserApplication\"": [
+   "kdeglobals|General|BrowserApplication"
+  ],
+  "backends/defaultapps.cpp:\"TerminalApplication\"": [
+   "kdeglobals|General|TerminalApplication"
+  ],
+  "backends/defaultapps.cpp:\"TerminalService\"": [
+   "kdeglobals|General|TerminalService"
+  ],
+  "backends/defaultapps.cpp:type": [
+   "mimeapps.list|Default Applications|<mime type>",
+   "mimeapps.list|Added Associations|<mime type>"
+  ],
+  "backends/developer.cpp:\"DeveloperMode\"": [
+   "raye-developerrc|General|DeveloperMode"
+  ],
+  "backends/developer.cpp:\"SshPasswords\"": [
+   "raye-developerrc|General|SshPasswords"
+  ],
+  "backends/gpupreference.cpp:marker": [
+   "~/.local/share/applications/<appId>.desktop|Desktop Entry|X-Raye-GpuChoice"
+  ],
+  "backends/gpupreference.cpp:preferKey": [
+   "~/.local/share/applications/<appId>.desktop|Desktop Entry|PrefersNonDefaultGPU"
+  ],
+  "backends/indexing.cpp:\"FeedbackLevel\"": [
+   "PlasmaUserFeedback|Global|FeedbackLevel"
+  ],
+  "backends/indexing.cpp:\"UseRecent\"": [
+   "kdeglobals|RecentDocuments|UseRecent"
+  ],
+  "backends/indexing.cpp:excludeKey": [
+   "baloofilerc|General|exclude folders"
+  ],
+  "backends/indexing.cpp:indexEnabledKey": [
+   "baloofilerc|Basic Settings|Indexing-Enabled"
+  ],
+  "backends/indexing.cpp:rememberKey": [
+   "kactivitymanagerd-pluginsrc|Plugin-org.kde.ActivityManager.Resources.Scoring|what-to-remember"
+  ],
+  "backends/lockscreen.cpp:\"Image\"": [
+   "kscreenlockerrc|Greeter/Wallpaper/org.kde.image/General|Image"
+  ],
+  "backends/lockscreen.cpp:\"Recent\"": [
+   "raye-settingsrc|LockScreen|Recent"
+  ],
+  "backends/multitasking.cpp:\"Autostart\"": [
+   "krdpserverrc|General|Autostart"
+  ],
+  "backends/multitasking.cpp:\"ElectricBorderMaximize\"": [
+   "kwinrc|Windows|ElectricBorderMaximize"
+  ],
+  "backends/multitasking.cpp:\"TerminalApplication\"": [
+   "kdeglobals|General|TerminalApplication"
+  ],
+  "backends/multitasking.cpp:\"TerminalService\"": [
+   "kdeglobals|General|TerminalService"
+  ],
+  "backends/multitasking.cpp:key": [
+   "kwinrc|Windows|ElectricBorderTiling",
+   "kwinrc|Script-org.raye.snap|SnapLayoutsOnHover",
+   "kwinrc|Script-org.raye.snap|SnapBar",
+   "kwinrc|Script-org.raye.snap|SnapAssist",
+   "kwinrc|TabBox|DesktopMode",
+   "kwinrc|TabBox|ShowDesktopMode",
+   "rayeshellrc|Taskbar|AllDesktops",
+   "dolphinrc|Raye|ShowExtensions",
+   "dolphinrc|Raye|ShowHidden",
+   "rayeshellrc|Taskbar|EndTask"
+  ],
+  "backends/network.cpp:\"AirplaneModeEnabled\"": [
+   "plasma-nm|General|AirplaneModeEnabled"
+  ],
+  "backends/network.cpp:\"BluetoothBeforeAirplane\"": [
+   "raye-settingsrc|Network|BluetoothBeforeAirplane"
+  ],
+  "backends/network.cpp:\"WifiBeforeAirplane\"": [
+   "raye-settingsrc|Network|WifiBeforeAirplane"
+  ],
+  "backends/nightlight.cpp:\"SunriseStart\"": [
+   "knighttimerc|General|SunriseStart"
+  ],
+  "backends/nightlight.cpp:\"SunsetStart\"": [
+   "knighttimerc|General|SunsetStart"
+  ],
+  "backends/nightlight.cpp:key": [
+   "kwinrc|NightColor|Active",
+   "kwinrc|NightColor|Mode",
+   "kwinrc|NightColor|NightTemperature",
+   "knighttimerc|General|Source",
+   "knighttimerc|General|SunsetStart",
+   "knighttimerc|General|SunriseStart"
+  ],
+  "backends/notificationsettings.cpp:\"DoNotDisturb\"": [
+   "raye-settingsrc|Focus|DoNotDisturb"
+  ],
+  "backends/notificationsettings.cpp:\"LockBadges\"": [
+   "rayeshellrc|Notifications|LockBadges"
+  ],
+  "backends/notificationsettings.cpp:\"Minutes\"": [
+   "raye-settingsrc|Focus|Minutes"
+  ],
+  "backends/notificationsettings.cpp:\"Until\"": [
+   "plasmanotifyrc|DoNotDisturb|Until",
+   "rayeshellrc|Focus|Until"
+  ],
+  "backends/notificationsettings.cpp:key": [
+   "plasmanotifyrc|DoNotDisturb|WhenFullscreen",
+   "plasmanotifyrc|DoNotDisturb|WhenScreensMirrored",
+   "plasmanotifyrc|DoNotDisturb|WhenScreenSharing",
+   "plasmanotifyrc|DoNotDisturb|NotificationSoundsMuted",
+   "plasmanotifyrc|Applications/<appId>|ShowPopups",
+   "plasmanotifyrc|Applications/<appId>|ShowInHistory",
+   "plasmanotifyrc|Applications/<appId>|ShowPopupsInDndMode",
+   "plasmanotifyrc|Applications/<appId>|ShowBadges"
+  ],
+  "backends/permissions.cpp:configKey(QStringLiteral(\"Access\"))": [
+   "raye-settingsrc|Privacy|CameraAccess",
+   "raye-settingsrc|Privacy|MicrophoneAccess",
+   "raye-settingsrc|Privacy|LocationAccess",
+   "raye-settingsrc|Privacy|ScreenshotAccess",
+   "raye-settingsrc|Privacy|BackgroundAccess",
+   "raye-settingsrc|Privacy|FilesAccess"
+  ],
+  "backends/permissions.cpp:restoreKey": [
+   "raye-settingsrc|Privacy|CameraRestore",
+   "raye-settingsrc|Privacy|MicrophoneRestore",
+   "raye-settingsrc|Privacy|LocationRestore",
+   "raye-settingsrc|Privacy|ScreenshotRestore",
+   "raye-settingsrc|Privacy|BackgroundRestore",
+   "raye-settingsrc|Privacy|FilesRestore"
+  ],
+  "backends/power.cpp:\"AutoSuspendAction\"": [
+   "powerdevilrc|AC/SuspendAndShutdown|AutoSuspendAction",
+   "powerdevilrc|Battery/SuspendAndShutdown|AutoSuspendAction"
+  ],
+  "backends/power.cpp:\"AutoSuspendIdleTimeoutSec\"": [
+   "powerdevilrc|AC/SuspendAndShutdown|AutoSuspendIdleTimeoutSec",
+   "powerdevilrc|Battery/SuspendAndShutdown|AutoSuspendIdleTimeoutSec"
+  ],
+  "backends/power.cpp:\"DimDisplayIdleTimeoutSec\"": [
+   "powerdevilrc|AC/Display|DimDisplayIdleTimeoutSec",
+   "powerdevilrc|Battery/Display|DimDisplayIdleTimeoutSec",
+   "powerdevilrc|LowBattery/Display|DimDisplayIdleTimeoutSec"
+  ],
+  "backends/power.cpp:\"LowerBrightness\"": [
+   "raye-settingsrc|EnergySaver|LowerBrightness"
+  ],
+  "backends/power.cpp:\"PreviousProfile\"": [
+   "raye-settingsrc|EnergySaver|PreviousProfile"
+  ],
+  "backends/power.cpp:\"TurnOffDisplayIdleTimeoutSec\"": [
+   "powerdevilrc|AC/Display|TurnOffDisplayIdleTimeoutSec",
+   "powerdevilrc|Battery/Display|TurnOffDisplayIdleTimeoutSec",
+   "powerdevilrc|LowBattery/Display|TurnOffDisplayIdleTimeoutSec"
+  ],
+  "backends/power.cpp:\"TurnOffDisplayWhenIdle\"": [
+   "powerdevilrc|AC/Display|TurnOffDisplayWhenIdle",
+   "powerdevilrc|Battery/Display|TurnOffDisplayWhenIdle",
+   "powerdevilrc|LowBattery/Display|TurnOffDisplayWhenIdle"
+  ],
+  "backends/power.cpp:\"TurnOnAt\"": [
+   "raye-settingsrc|EnergySaver|TurnOnAt"
+  ],
+  "backends/power.cpp:key": [
+   "powerdevilrc|AC/SuspendAndShutdown|LidAction",
+   "powerdevilrc|AC/SuspendAndShutdown|PowerButtonAction",
+   "powerdevilrc|Battery/SuspendAndShutdown|LidAction",
+   "powerdevilrc|Battery/SuspendAndShutdown|PowerButtonAction",
+   "powerdevilrc|LowBattery/SuspendAndShutdown|LidAction",
+   "powerdevilrc|LowBattery/SuspendAndShutdown|PowerButtonAction"
+  ],
+  "backends/proxy.cpp:it.key()": [
+   "~/.config/kioslaverc|Proxy Settings|ProxyType",
+   "~/.config/kioslaverc|Proxy Settings|Proxy Config Script",
+   "~/.config/kioslaverc|Proxy Settings|httpProxy",
+   "~/.config/kioslaverc|Proxy Settings|httpsProxy",
+   "~/.config/kioslaverc|Proxy Settings|ftpProxy",
+   "~/.config/kioslaverc|Proxy Settings|NoProxyFor",
+   "~/.config/kioslaverc|Proxy Settings|ReversedException"
+  ],
+  "backends/region.cpp:key": [
+   "plasma-localerc|Translations|LANGUAGE",
+   "plasma-localerc|Formats|LANG",
+   "plasma-localerc|Formats|LC_NUMERIC",
+   "plasma-localerc|Formats|LC_TIME",
+   "plasma-localerc|Formats|LC_MONETARY",
+   "plasma-localerc|Formats|LC_MEASUREMENT",
+   "plasma-localerc|Formats|LC_PAPER",
+   "plasma-localerc|Formats|LC_ADDRESS",
+   "plasma-localerc|Formats|LC_NAME",
+   "plasma-localerc|Formats|LC_TELEPHONE",
+   "kcminputrc|Keyboard|RepeatDelay",
+   "kcminputrc|Keyboard|RepeatRate"
+  ],
+  "backends/signin.cpp:\"LockBeforeTurnOffDisplay\"": [
+   "powerdevilrc|AC/Display|LockBeforeTurnOffDisplay",
+   "powerdevilrc|Battery/Display|LockBeforeTurnOffDisplay",
+   "powerdevilrc|LowBattery/Display|LockBeforeTurnOffDisplay"
+  ],
+  "backends/soundtheme.cpp:\"Enable\"": [
+   "kdeglobals|Sounds|Enable"
+  ],
+  "backends/soundtheme.cpp:\"Theme\"": [
+   "kdeglobals|Sounds|Theme"
+  ],
+  "backends/soundtheme.cpp:\"VolumeChime\"": [
+   "rayeshellrc|Sound|VolumeChime"
+  ],
+  "backends/startsettings.cpp:key": [
+   "rayeshellrc|Start|Layout",
+   "rayeshellrc|Start|Recommended",
+   "rayeshellrc|Start|RecentApps",
+   "rayeshellrc|Start|MostUsed",
+   "rayeshellrc|Start|Folders"
+  ],
+  "backends/startupapps.cpp:\"Hidden\"": [
+   "~/.config/autostart/<name>.desktop|Desktop Entry|Hidden"
+  ],
+  "backends/storage.cpp:\"Thumbnails\"": [
+   "raye-settingsrc|StorageSense|Thumbnails"
+  ],
+  "backends/storage.cpp:\"TrashDays\"": [
+   "raye-settingsrc|StorageSense|TrashDays"
+  ],
+  "backends/taskbar.cpp:key": [
+   "rayeshellrc|Taskbar|Search",
+   "rayeshellrc|Taskbar|TaskView",
+   "rayeshellrc|Taskbar|Alignment",
+   "rayeshellrc|Taskbar|ShowDesktopCorner",
+   "rayeshellrc|Taskbar|Combine",
+   "rayeshellrc|Taskbar|MultiDisplayApps",
+   "rayeshellrc|Taskbar|Badges",
+   "rayeshellrc|Taskbar|Flashing",
+   "raye-taskbarrc|Taskbar|AllDisplays",
+   "raye-taskbarrc|Taskbar|MultiDisplayButtons"
+  ],
+  "backends/textinput.cpp:\"InputMethod\"": [
+   "kwinrc|Wayland|InputMethod"
+  ],
+  "backends/vpn.cpp:\"VpnOverMetered\"": [
+   "raye-settingsrc|Network|VpnOverMetered"
+  ],
+  "backends/wallpaper.cpp:\"Recent\"": [
+   "raye-settingsrc|Background|Recent"
+  ],
+  "backends/wifi.cpp:\"RandomAddresses\"": [
+   "raye-settingsrc|Network|RandomAddresses"
+  ],
+  "modulehost.cpp:\"Hidden\"": [
+   "raye-settingsrc|Home|Hidden"
+  ],
+  "qml/pages/devices/MousePage.qml:\"leftHanded\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|leftHanded"
+  ],
+  "qml/pages/devices/MousePage.qml:\"naturalScroll\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|naturalScroll"
+  ],
+  "qml/pages/devices/MousePage.qml:\"pointerAcceleration\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|pointerAcceleration"
+  ],
+  "qml/pages/devices/MousePage.qml:\"scrollFactor\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|scrollFactor"
+  ],
+  "qml/pages/devices/MousePage.qml:checked ? \"pointerAccelerationProfileAdaptive\" : \"pointerAccelerationProfileFlat\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|pointerAccelerationProfileAdaptive",
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|pointerAccelerationProfileFlat"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"disableEventsOnExternalMouse\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|disableEventsOnExternalMouse"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"disableWhileTyping\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|disableWhileTyping"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"enabled\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|enabled"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"lmrTapButtonMap\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|lmrTapButtonMap"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"naturalScroll\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|naturalScroll"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"pointerAcceleration\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|pointerAcceleration"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"tapAndDrag\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|tapAndDrag"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:\"tapToClick\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|tapToClick"
+  ],
+  "qml/pages/devices/TouchpadPage.qml:index === 1 ? \"scrollEdge\" : \"scrollTwoFinger\"": [
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|scrollEdge",
+   "kcminputrc (written by KWin)|Libinput/<vendorId>/<productId>/<deviceName>|scrollTwoFinger"
+  ]
+ },
+ "not_in_files": {
+  "_": "Settings changes these through a tool or D-Bus, not a config key; they are not synced, and why",
+  "power profile (power-profiles-daemon)": "the profiles a PC offers depend on its hardware",
+  "time zone and automatic time (timedated)": "set for the whole PC, and follows where it is",
+  "displays, brightness, night light schedule location": "per monitor and per PC",
+  "Wi-Fi, VPN, Bluetooth pairings, hotspot": "networks, devices and their secrets stay on the PC",
+  "sound devices and volumes": "the devices differ from PC to PC",
+  "look and feel (plasma-apply-lookandfeel)": "it rewrites the panel layout; theme, colors, accent and wallpaper sync on their own",
+  "per-app notification rules, startup apps, GPU per app": "keyed by app or hardware, see excluded",
+  "game mode": "Settings only shows it; Raye Gaming switches it on per game"
+ }
+}

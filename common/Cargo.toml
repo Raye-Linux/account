@@ -1,0 +1,14 @@
+[package]
+name = "raye-account-common"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Types shared by the Raye account server and the desktop client"
+
+[dependencies]
+base64.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+uuid.workspace = true
+rand.workspace = true

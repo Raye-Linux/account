@@ -1,0 +1,36 @@
+# Raye account server. Example unit for the VM that will host it; the
+# database URL and the rest go in /etc/raye-account/server.env (0600).
+[Unit]
+Description=Raye account server
+After=network-online.target postgresql.service
+Wants=network-online.target
+
+[Service]
+User=raye-account
+Group=raye-account
+EnvironmentFile=/etc/raye-account/server.env
+# Each password check takes 19 MiB. With glibc's moving mmap threshold
+# that memory stays in the heap after use (measured: 64 MB resident after
+# six checks); a fixed threshold gives it back (6 MB).
+Environment=MALLOC_MMAP_THRESHOLD_=131072
+ExecStart=/usr/local/bin/raye-account-server
+Restart=always
+RestartSec=5
+MemoryMax=512M
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+RestrictNamespaces=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target

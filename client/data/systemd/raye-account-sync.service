@@ -1,0 +1,11 @@
+[Unit]
+Description=Sync settings with the Raye account
+
+[Service]
+Type=oneshot
+# Settings pages often write a file several times in a row: wait for the
+# last write, then sync once.
+ExecStartPre=/bin/sleep 3
+ExecStart=/usr/libexec/raye-accountd sync
+Slice=background.slice
+Nice=10

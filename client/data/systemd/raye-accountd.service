@@ -1,0 +1,17 @@
+# Started by D-Bus when Settings, the Store or the sync unit need the
+# account; it exits on its own after 20 seconds without calls.
+[Unit]
+Description=Raye account
+PartOf=graphical-session.target
+
+[Service]
+Type=dbus
+BusName=org.raye.Account1
+ExecStart=/usr/libexec/raye-accountd serve
+Slice=background.slice
+Nice=10
+MemoryMax=96M
+NoNewPrivileges=yes
+LockPersonality=yes
+RestrictRealtime=yes
+SystemCallArchitectures=native

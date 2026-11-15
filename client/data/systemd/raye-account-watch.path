@@ -1,0 +1,32 @@
+# Enabled only while this PC is signed in to a Raye account. systemd
+# watches the files; nothing of the account runs until one changes.
+[Unit]
+Description=Watch settings that sync with the Raye account
+
+[Path]
+PathChanged=%h/.config/PlasmaUserFeedback
+PathChanged=%h/.config/baloofilerc
+PathChanged=%h/.config/dolphinrc
+PathChanged=%h/.config/kaccessrc
+PathChanged=%h/.config/kactivitymanagerd-pluginsrc
+PathChanged=%h/.config/kcminputrc
+PathChanged=%h/.config/kdeglobals
+PathChanged=%h/.config/klipperrc
+PathChanged=%h/.config/knighttimerc
+PathChanged=%h/.config/kwinrc
+PathChanged=%h/.config/kxkbrc
+PathChanged=%h/.config/plasma-localerc
+PathChanged=%h/.config/plasma-org.kde.plasma.desktop-appletsrc
+PathChanged=%h/.config/plasmanotifyrc
+PathChanged=%h/.config/powerdevilrc
+PathChanged=%h/.config/raye-settingsrc
+PathChanged=%h/.config/raye-storerc
+PathChanged=%h/.config/raye-taskbarrc
+PathChanged=%h/.config/rayerc
+PathChanged=%h/.config/rayeshellrc
+PathChanged=/var/lib/flatpak/app
+PathChanged=%h/.local/share/flatpak/app
+Unit=raye-account-sync.service
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,14 @@
+raye-account (0.5.4~beta1) resolute; urgency=medium
+
+  * Signing in sends this PC's settings and picture to an empty account,
+    and asks which to keep when the account already has other settings.
+    Sign-in waits up to 30 minutes for a slow confirmation email.
+
+ -- techoraye <190692880+techoraye@users.noreply.github.com>  Sat, 14 Nov 2026 21:00:00 +0000
+
+raye-account (0.5.3~beta1) resolute; urgency=medium
+
+  * First package: sign in to a Raye account from Settings, and your
+    settings follow you to every PC you sign in to.
+
+ -- techoraye <190692880+techoraye@users.noreply.github.com>  Sat, 14 Nov 2026 15:00:00 +0000

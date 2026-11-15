@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.raye.Account1
+Exec=/usr/libexec/raye-accountd serve
+SystemdService=raye-accountd.service

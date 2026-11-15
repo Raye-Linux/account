@@ -1,0 +1,12 @@
+# Changes made on other devices arrive at sign-in and every few hours.
+# Opening Raye Settings > Accounts also syncs.
+[Unit]
+Description=Fetch Raye account changes from other devices
+
+[Timer]
+OnStartupSec=3min
+OnUnitActiveSec=6h
+RandomizedDelaySec=15min
+
+[Install]
+WantedBy=timers.target

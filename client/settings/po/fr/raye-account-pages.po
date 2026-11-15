@@ -1,0 +1,555 @@
+# French for the Raye account pages of Raye Settings.
+# To merge into po/fr/raye-settings.po of the settings repo.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "@info"
+msgid "Can't reach your Raye account"
+msgstr "Impossible de joindre votre compte Raye"
+
+msgctxt "@info"
+msgid "Check your internet connection. Your settings sync when you're back online."
+msgstr "Vérifiez votre connexion Internet. Vos paramètres se synchroniseront dès votre retour en ligne."
+
+msgctxt "@info"
+msgid "Sign in again"
+msgstr "Reconnectez-vous"
+
+msgctxt "@info"
+msgid "This PC was signed out of your Raye account."
+msgstr "Ce PC a été déconnecté de votre compte Raye."
+
+msgctxt "@info"
+msgid "Sign-in took too long"
+msgstr "La connexion a pris trop de temps"
+
+msgctxt "@info"
+msgid "Start again when you're ready."
+msgstr "Recommencez quand vous êtes prêt."
+
+msgctxt "@info"
+msgid "Couldn't keep you signed in"
+msgstr "Impossible de garder votre session"
+
+msgctxt "@info"
+msgid "The wallet that stores passwords on this PC didn't answer."
+msgstr "Le portefeuille qui garde les mots de passe de ce PC n'a pas répondu."
+
+msgctxt "@info"
+msgid "No web browser found"
+msgstr "Aucun navigateur trouvé"
+
+msgctxt "@info"
+msgid "Install a web browser to sign in."
+msgstr "Installez un navigateur pour vous connecter."
+
+msgctxt "@info"
+msgid "Raye account isn't installed"
+msgstr "Le compte Raye n'est pas installé"
+
+msgctxt "@info"
+msgid "Install updates, then try again."
+msgstr "Installez les mises à jour, puis réessayez."
+
+msgctxt "@info"
+msgid "Couldn't change your picture or name on this PC"
+msgstr "Impossible de changer votre image ou votre nom sur ce PC"
+
+msgctxt "@info"
+msgid "Try again from Your info."
+msgstr "Réessayez depuis Vos informations."
+
+msgctxt "@info"
+msgid "This picture is too big"
+msgstr "Cette image est trop lourde"
+
+msgctxt "@info"
+msgid "Choose a picture under 2 MB."
+msgstr "Choisissez une image de moins de 2 Mo."
+
+msgctxt "@info"
+msgid "Already signing in"
+msgstr "Connexion déjà en cours"
+
+msgctxt "@info"
+msgid "Finish in your browser, or cancel and start again."
+msgstr "Terminez dans votre navigateur, ou annulez et recommencez."
+
+msgctxt "@info"
+msgid "Something went wrong"
+msgstr "Un problème est survenu"
+
+msgctxt "@info"
+msgid "Try again in a few minutes."
+msgstr "Réessayez dans quelques minutes."
+
+msgctxt "@title settings category"
+msgid "Accounts"
+msgstr "Comptes"
+
+msgctxt "@title settings page"
+msgid "Raye account"
+msgstr "Compte Raye"
+
+msgctxt "@label"
+msgid "Finish in your browser"
+msgstr "Terminez dans votre navigateur"
+
+msgctxt "@label"
+msgid "Sign in with a Raye account"
+msgstr "Se connecter avec un compte Raye"
+
+msgctxt "@info"
+msgid "This page updates when you're done."
+msgstr "Cette page se met à jour quand vous avez terminé."
+
+msgctxt "@info"
+msgid "Your settings and apps on all your PCs. Raye works the same without one."
+msgstr "Vos paramètres et vos applications sur tous vos PC. Raye fonctionne aussi bien sans compte."
+
+msgctxt "@action:button"
+msgid "Create account"
+msgstr "Créer un compte"
+
+msgctxt "@action:button"
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "@title"
+msgid "With a Raye account"
+msgstr "Avec un compte Raye"
+
+msgctxt "@label"
+msgid "Your settings follow you"
+msgstr "Vos paramètres vous suivent"
+
+msgctxt "@info"
+msgid "Theme, accent color, wallpaper, language and accessibility, on every PC you sign in to."
+msgstr "Thème, couleur d'accentuation, fond d'écran, langue et accessibilité, sur chaque PC où vous vous connectez."
+
+msgctxt "@label"
+msgid "Your apps in the Store"
+msgstr "Vos applications dans le Store"
+
+msgctxt "@info"
+msgid "See what's installed on your other PCs and get it here in one click."
+msgstr "Voyez ce qui est installé sur vos autres PC et installez-le ici en un clic."
+
+msgctxt "@label"
+msgid "Your devices"
+msgstr "Vos appareils"
+
+msgctxt "@info"
+msgid "See your PCs in one list and sign out one you no longer have."
+msgstr "Retrouvez vos PC dans une seule liste et déconnectez celui que vous n'avez plus."
+
+msgctxt "@label kind of account"
+msgid "Raye account"
+msgstr "Compte Raye"
+
+msgctxt "@title"
+msgid "Your info"
+msgstr "Vos informations"
+
+msgctxt "@label"
+msgid "Use my account's picture and name on this PC"
+msgstr "Utiliser l'image et le nom de mon compte sur ce PC"
+
+msgctxt "@info"
+msgid "Shown on the lock screen and in Start. Your sign-in name doesn't change."
+msgstr "Affichés sur l'écran de verrouillage et dans Démarrer. Votre nom de connexion ne change pas."
+
+msgctxt "@item"
+msgid "Picture and name"
+msgstr "Image et nom"
+
+msgctxt "@item"
+msgid "Picture only"
+msgstr "Image seulement"
+
+msgctxt "@item"
+msgid "Name only"
+msgstr "Nom seulement"
+
+msgctxt "@item"
+msgid "Neither"
+msgstr "Aucun des deux"
+
+msgctxt "@label"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "@action:button"
+msgid "Change"
+msgstr "Modifier"
+
+msgctxt "@label"
+msgid "Picture"
+msgstr "Image"
+
+msgctxt "@info"
+msgid "Your other devices get it too"
+msgstr "Vos autres appareils la reçoivent aussi"
+
+msgctxt "@action:button"
+msgid "Choose a picture"
+msgstr "Choisir une image"
+
+msgctxt "@title"
+msgid "Settings and devices"
+msgstr "Paramètres et appareils"
+
+msgctxt "@title settings page"
+msgid "Raye backup"
+msgstr "Sauvegarde Raye"
+
+msgctxt "@info"
+msgid "Choose what syncs and remember your apps"
+msgstr "Choisir ce qui se synchronise et mémoriser vos applications"
+
+msgctxt "@title settings page"
+msgid "Your devices"
+msgstr "Vos appareils"
+
+msgctxt "@info"
+msgid "The PCs signed in to your account"
+msgstr "Les PC connectés à votre compte"
+
+msgctxt "@title"
+msgid "Sign-in"
+msgstr "Connexion"
+
+msgctxt "@label"
+msgid "Sign out on this PC"
+msgstr "Se déconnecter sur ce PC"
+
+msgctxt "@info"
+msgid "Your settings stay on this PC and stop syncing."
+msgstr "Vos paramètres restent sur ce PC et ne se synchronisent plus."
+
+msgctxt "@action:button"
+msgid "Sign out"
+msgstr "Se déconnecter"
+
+msgctxt "@title:window"
+msgid "Change your name"
+msgstr "Modifier votre nom"
+
+msgctxt "@action:button"
+msgid "Save"
+msgstr "Enregistrer"
+
+msgctxt "@title:window"
+msgid "Sign out of your Raye account?"
+msgstr "Se déconnecter de votre compte Raye ?"
+
+msgctxt "@info"
+msgid "Your settings stay on this PC and stop syncing. You can keep the picture and name your account gave this PC, or put back the ones it had before."
+msgstr "Vos paramètres restent sur ce PC et ne se synchronisent plus. Vous pouvez garder l'image et le nom que votre compte a donnés à ce PC, ou remettre ceux d'avant."
+
+msgctxt "@action:button"
+msgid "Put them back and sign out"
+msgstr "Les remettre et se déconnecter"
+
+msgctxt "@title:window"
+msgid "Choose a picture"
+msgstr "Choisir une image"
+
+msgctxt "@item file type"
+msgid "Pictures (*.jpg *.jpeg *.png *.webp)"
+msgstr "Images (*.jpg *.jpeg *.png *.webp)"
+
+msgctxt "@info"
+msgid "Not synced yet"
+msgstr "Pas encore synchronisé"
+
+msgctxt "@info %1 is a time"
+msgid "Last synced today at %1"
+msgstr "Dernière synchronisation aujourd'hui à %1"
+
+msgctxt "@info %1 is a date, %2 a time"
+msgid "Last synced %1 at %2"
+msgstr "Dernière synchronisation le %1 à %2"
+
+msgctxt "@label"
+msgid "Syncing…"
+msgstr "Synchronisation…"
+
+msgctxt "@action:button"
+msgid "Sync now"
+msgstr "Synchroniser"
+
+msgctxt "@title"
+msgid "Remember my preferences"
+msgstr "Mémoriser mes préférences"
+
+msgctxt "@label"
+msgid "Personalization"
+msgstr "Personnalisation"
+
+msgctxt "@info"
+msgid "Theme, colors, accent color and wallpaper"
+msgstr "Thème, couleurs, couleur d'accentuation et fond d'écran"
+
+msgctxt "@label"
+msgid "Taskbar"
+msgstr "Barre des tâches"
+
+msgctxt "@info"
+msgid "Pinned apps on the taskbar"
+msgstr "Applications épinglées dans la barre des tâches"
+
+msgctxt "@label"
+msgid "Language preferences"
+msgstr "Préférences linguistiques"
+
+msgctxt "@info"
+msgid "Display language, formats and keyboard layouts"
+msgstr "Langue d'affichage, formats et dispositions du clavier"
+
+msgctxt "@label"
+msgid "Accessibility"
+msgstr "Accessibilité"
+
+msgctxt "@info"
+msgid "Text size, cursor, keyboard and mouse keys, magnifier, color filters"
+msgstr "Taille du texte, curseur, clavier et touches souris, loupe, filtres de couleur"
+
+msgctxt "@label"
+msgid "Other settings"
+msgstr "Autres paramètres"
+
+msgctxt "@info"
+msgid "Sound, notifications, power, privacy, default apps, multitasking and more"
+msgstr "Son, notifications, alimentation, confidentialité, applications par défaut, multitâche et plus"
+
+msgctxt "@label"
+msgid "Passwords and Wi-Fi networks"
+msgstr "Mots de passe et réseaux Wi-Fi"
+
+msgctxt "@info"
+msgid "Coming later. They will be encrypted on this PC so only your devices can read them."
+msgstr "Bientôt. Ils seront chiffrés sur ce PC pour que seuls vos appareils puissent les lire."
+
+msgctxt "@title"
+msgid "Apps"
+msgstr "Applications"
+
+msgctxt "@label"
+msgid "Remember my apps"
+msgstr "Mémoriser mes applications"
+
+msgctxt "@info"
+msgid "Lists the apps on this PC in your Store library, so you can install them on your other PCs."
+msgstr "Ajoute les applications de ce PC à votre bibliothèque du Store, pour les installer sur vos autres PC."
+
+msgctxt "@info last seen"
+msgid "Last seen %1 minute ago"
+msgid_plural "Last seen %1 minutes ago"
+msgstr[0] "Vu il y a %1 minute"
+msgstr[1] "Vu il y a %1 minutes"
+
+msgctxt "@info last seen"
+msgid "Last seen %1 hour ago"
+msgid_plural "Last seen %1 hours ago"
+msgstr[0] "Vu il y a %1 heure"
+msgstr[1] "Vu il y a %1 heures"
+
+msgctxt "@info"
+msgid "%1 app"
+msgid_plural "%1 apps"
+msgstr[0] "%1 application"
+msgstr[1] "%1 applications"
+
+msgctxt "@info last seen"
+msgid "Active now"
+msgstr "Actif maintenant"
+
+msgctxt "@info %1 is a date"
+msgid "Last seen %1"
+msgstr "Vu le %1"
+
+msgctxt "@info %1 is a version"
+msgid "Raye %1"
+msgstr "Raye %1"
+
+msgctxt "@label %1 is the PC's name"
+msgid "%1 (this PC)"
+msgstr "%1 (ce PC)"
+
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Retirer"
+
+msgctxt "@info"
+msgid "No devices"
+msgstr "Aucun appareil"
+
+msgctxt "@info"
+msgid "Sign in on a PC and it shows up here."
+msgstr "Connectez-vous sur un PC et il apparaîtra ici."
+
+msgctxt "@info"
+msgid "A PC you remove is signed out the next time it goes online. Its settings stay on it."
+msgstr "Un PC retiré est déconnecté la prochaine fois qu'il se connecte à Internet. Ses paramètres y restent."
+
+msgctxt "@title:window"
+msgid "Sign out this PC?"
+msgstr "Déconnecter ce PC ?"
+
+msgctxt "@title:window %1 is a PC's name"
+msgid "Remove %1?"
+msgstr "Retirer %1 ?"
+
+msgctxt "@info"
+msgid "This PC stops syncing with your Raye account. Its settings stay here."
+msgstr "Ce PC ne se synchronise plus avec votre compte Raye. Ses paramètres restent ici."
+
+msgctxt "@info"
+msgid "It's signed out of your Raye account and stops syncing."
+msgstr "Il est déconnecté de votre compte Raye et ne se synchronise plus."
+
+msgctxt "@label"
+msgid "Syncing your settings"
+msgstr "Synchronisation de vos paramètres"
+
+msgctxt "@info"
+msgid "Sign in or create your account on the page that just opened. New account? Open the link in the email we send, then sign in on that same page."
+msgstr "Connectez-vous ou créez votre compte sur la page qui vient de s'ouvrir. Nouveau compte ? Ouvrez le lien du courriel que nous vous envoyons, puis connectez-vous sur cette même page."
+
+msgctxt "@info"
+msgid "Your settings and picture are going to your Raye account. This takes a few seconds."
+msgstr "Vos paramètres et votre photo partent vers votre compte Raye. Cela prend quelques secondes."
+
+msgctxt "@label"
+msgid "Which settings do you want to keep?"
+msgstr "Quels paramètres voulez-vous garder ?"
+
+msgctxt "@title:window"
+msgid "Which settings do you want to keep?"
+msgstr "Quels paramètres voulez-vous garder ?"
+
+msgctxt "@info"
+msgid "Your Raye account already has settings, and %1 is different on this PC."
+msgid_plural "Your Raye account already has settings, and %1 are different on this PC."
+msgstr[0] "Votre compte Raye a déjà des paramètres, et %1 est différent sur ce PC."
+msgstr[1] "Votre compte Raye a déjà des paramètres, et %1 sont différents sur ce PC."
+
+msgctxt "@info"
+msgid "Your Raye account already has settings from another PC, and %1 of them is different here. Keep this PC's and they go to your account, or use your account's and this PC changes to match. Your picture goes with the choice."
+msgid_plural "Your Raye account already has settings from another PC, and %1 of them are different here. Keep this PC's and they go to your account, or use your account's and this PC changes to match. Your picture goes with the choice."
+msgstr[0] "Votre compte Raye a déjà les paramètres d'un autre PC, et %1 est différent ici. Gardez ceux de ce PC et ils partent vers votre compte, ou utilisez ceux du compte et ce PC s'aligne dessus. Votre photo suit le même choix."
+msgstr[1] "Votre compte Raye a déjà les paramètres d'un autre PC, et %1 sont différents ici. Gardez ceux de ce PC et ils partent vers votre compte, ou utilisez ceux du compte et ce PC s'aligne dessus. Votre photo suit le même choix."
+
+msgctxt "@action:button"
+msgid "Keep this PC's"
+msgstr "Garder ceux de ce PC"
+
+msgctxt "@action:button"
+msgid "Use the account's"
+msgstr "Utiliser ceux du compte"
+
+msgctxt "@action:button"
+msgid "Use my account's"
+msgstr "Utiliser ceux de mon compte"
+
+msgctxt "@action:button"
+msgid "Decide later"
+msgstr "Décider plus tard"
+
+msgctxt "@info"
+msgid "Your Raye account is connected"
+msgstr "Votre compte Raye est connecté"
+
+msgctxt "@info"
+msgid "Your settings and picture now stay the same on every PC you sign in to."
+msgstr "Vos paramètres et votre photo sont maintenant les mêmes sur chaque PC où vous vous connectez."
+
+msgctxt "@label"
+msgid "Sign in with a Raye account instead"
+msgstr "Se connecter plutôt avec un compte Raye"
+
+msgctxt "@info"
+msgid "Your settings and picture on every PC you use. This account and your files stay as they are."
+msgstr "Vos paramètres et votre photo sur chaque PC que vous utilisez. Ce compte et vos fichiers restent tels quels."
+
+msgctxt "@label"
+msgid "Raye account"
+msgstr "Compte Raye"
+
+msgctxt "@action:button"
+msgid "Manage your account"
+msgstr "Gérer votre compte"
+
+msgctxt "@action:button opens account.rayelinux.com"
+msgid "Manage your account"
+msgstr "Gérer votre compte"
+
+msgctxt "@info %1 is a date and time"
+msgid "Last synced %1"
+msgstr "Dernière synchronisation : %1"
+
+msgctxt "@label"
+msgid "Stop using this account on this PC"
+msgstr "Ne plus utiliser ce compte sur ce PC"
+
+msgctxt "@info"
+msgid "Sign in with this PC's account only. Your settings and files stay here."
+msgstr "Se connecter seulement avec le compte de ce PC. Vos paramètres et vos fichiers restent ici."
+
+msgctxt "@info"
+msgid "Theme, wallpaper, taskbar, language, accessibility and the rest of Settings, on every PC you sign in to."
+msgstr "Thème, fond d'écran, barre des tâches, langue, accessibilité et le reste des Paramètres, sur chaque PC où vous vous connectez."
+
+msgctxt "@label %1 is Sudo user or Standard user"
+msgid "Raye account · %1"
+msgstr "Compte Raye · %1"
+
+msgctxt "@label %1 is Sudo user or Standard user"
+msgid "Local account · %1"
+msgstr "Compte local · %1"
+
+msgctxt "@info"
+msgid "Signed in. Your settings and picture sync across your PCs."
+msgstr "Connecté. Vos paramètres et votre photo se synchronisent entre vos PC."
+
+msgid "Sign in to keep your settings and picture the same on every PC. Not needed to use Raye."
+msgstr "Connectez-vous pour garder les mêmes paramètres et la même photo sur chaque PC. Pas nécessaire pour utiliser Raye."
+
+msgctxt "@action:button opens Accounts > Your info"
+msgid "Sign in"
+msgstr "Se connecter"
+
+msgctxt "@title"
+msgid "Starting phone linking…"
+msgstr "Démarrage de la liaison avec le téléphone…"
+
+msgctxt "@info"
+msgid "This takes a few seconds."
+msgstr "Cela prend quelques secondes."
+
+msgctxt "@title"
+msgid "Phone linking didn't start"
+msgstr "La liaison avec le téléphone n'a pas démarré"
+
+msgctxt "@info"
+msgid "Restart your PC, then open this page again."
+msgstr "Redémarrez votre PC, puis rouvrez cette page."
+
+msgctxt "@title"
+msgid "Phone linking isn't installed"
+msgstr "La liaison avec le téléphone n'est pas installée"
+
+msgctxt "@info"
+msgid "Install updates to get it back."
+msgstr "Installez les mises à jour pour la récupérer."
+
+msgctxt "@info"
+msgid "Your other PCs get it too"
+msgstr "Vos autres PC la reçoivent aussi"

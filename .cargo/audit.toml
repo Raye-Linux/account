@@ -1,0 +1,52 @@
+# `cargo audit` settings. Every ignore below names what was MEASURED, and the
+# condition that would make it unsafe again -- an ignore whose premise nobody
+# checks is how a real advisory gets silenced.
+#
+# Re-measure with:
+#   cargo audit
+#   cargo tree -i <crate> -e normal          # is it a real dependency here?
+#   ls $CARGO_TARGET_DIR/debug/deps | grep <crate>   # was it ever compiled?
+
+[advisories]
+ignore = [
+    # RUSTSEC-2023-0071 -- rsa 0.9.10, Marvin timing side channel, no fix exists.
+    #
+    # It reaches this lockfile through sqlx-mysql ONLY, which is an optional
+    # backend of the sqlx facade. The server asks for
+    # features = ["runtime-tokio", "postgres", ...] with default-features off,
+    # so MySQL is never enabled. Measured 2026-11-06: `cargo tree -i rsa -e normal`
+    # prints "nothing to print", and the only sqlx backends with build
+    # artifacts are sqlx_core, sqlx_macros and sqlx_postgres -- zero rsa and
+    # zero sqlx_mysql objects. The vulnerable code is listed, not compiled,
+    # not linked and not shipped.
+    #
+    # This stops being true the moment anyone adds "mysql" (or any sqlx
+    # default features) to server/Cargo.toml. `sqlx_pulls_in_no_other_backend`
+    # in server/src/lib.rs fails if that happens, so the premise is enforced
+    # by the suite rather than by this comment.
+    "RUSTSEC-2023-0071",
+
+    # RUSTSEC-2026-0370/0371/0372 -- zvariant, zbus_names and zvariant_derive
+    # are unmaintained (not vulnerabilities; no advisory of a flaw).
+    #
+    # They come from zbus 5.19, which the desktop daemon uses for the session
+    # bus and for the keyring. The fix upstream is zbus 6: measured
+    # 2026-11-06, zbus 6.2.1 depends on none of the three (they were folded
+    # in). We cannot take it yet -- secret-service 5.2.0, the newest release,
+    # requires zbus ^5, and that crate is how tokens reach KWallet. Forcing
+    # zbus 6 alongside it would put TWO D-Bus stacks in one binary, which is
+    # worse than an unmaintained one.
+    #
+    # Lifts when secret-service publishes a release built on zbus 6. Check:
+    #   curl -s https://crates.io/api/v1/crates/secret-service/<ver>/dependencies
+    "RUSTSEC-2026-0370",
+    "RUSTSEC-2026-0371",
+    "RUSTSEC-2026-0372",
+    # RUSTSEC-2026-0459 -- libsqlite3-sys 0.30.1, SQLite CVE-2026-119375.
+    #
+    # Same story as rsa: it is in the lockfile only through sqlx-sqlite, an
+    # optional backend never enabled here. Measured 2026-11-14:
+    # `cargo tree -i libsqlite3-sys -e all` prints nothing and no sqlite object
+    # is ever built. sqlx_pulls_in_no_other_backend fails if "sqlite" is turned on.
+    "RUSTSEC-2026-0459",
+]
